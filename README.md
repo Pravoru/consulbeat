@@ -118,3 +118,7 @@ make package
 ```
 
 This will fetch and create all images required for the build process. The hole process to finish can take several minutes.
+
+## Downloading
+
+You can download prebuild binaries from [releases page](https://github.com/Pravoru/consulbeat/releases/)
