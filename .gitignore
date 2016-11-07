@@ -1,0 +1,10 @@
+/.idea
+/build
+
+.DS_Store
+/consulbeat
+/consulbeat.test
+*.pyc
+.idea
+vendor
+consulbeat
