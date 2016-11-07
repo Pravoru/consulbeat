@@ -25,7 +25,7 @@ It will create a clean git history for each major step. Note that you can always
 To push Consulbeat in the git repository, run the following commands:
 
 ```
-git remote set-url origin https://github.com/elufimov/consulbeat
+git remote set-url origin https://github.com/pravoru/consulbeat
 git push origin master
 ```
 
@@ -100,9 +100,9 @@ make clean
 To clone Consulbeat from the git repository, run the following commands:
 
 ```
-mkdir -p ${GOPATH}/github.com/elufimov
-cd ${GOPATH}/github.com/elufimov
-git clone https://github.com/elufimov/consulbeat
+mkdir -p ${GOPATH}/github.com/pravoru
+cd ${GOPATH}/github.com/pravoru
+git clone https://github.com/pravoru/consulbeat
 ```
 
 
