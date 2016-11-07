@@ -1,5 +1,5 @@
 BEATNAME=consulbeat
-BEAT_DIR=github.com/pravoru/ConsulBeat
+BEAT_DIR=github.com/pravoru/consulbeat
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
 ES_BEATS?=./vendor/github.com/elastic/beats

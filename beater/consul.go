@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"github.com/elastic/beats/libbeat/logp"
 	"io/ioutil"
-	"github.com/pravoru/ConsulBeat/config"
+	"github.com/pravoru/consulbeat/config"
 )
 
 func getAllServices(bt *Consulbeat) []string {

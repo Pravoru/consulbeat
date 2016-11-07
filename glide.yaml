@@ -1,5 +1,5 @@
-package: github.com/pravoru/ConsulBeat
-homepage: https://github.com/pravoru/ConsulBeat
+package: github.com/pravoru/consulbeat
+homepage: https://github.com/pravoru/consulbeat
 license: Apache-2.0
 owners:
 - name: Michael Elufimov

@@ -1,7 +1,7 @@
 package beater
 
 import (
-	"github.com/pravoru/ConsulBeat/config"
+	"github.com/pravoru/consulbeat/config"
 	"testing"
 	"time"
 )

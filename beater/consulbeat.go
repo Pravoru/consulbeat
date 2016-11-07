@@ -7,7 +7,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/pravoru/ConsulBeat/config"
+	"github.com/pravoru/consulbeat/config"
 )
 
 type Consulbeat struct {
