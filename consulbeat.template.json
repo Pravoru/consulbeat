@@ -1,0 +1,137 @@
+{
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "norms": false
+      },
+      "_meta": {
+        "version": "5.0.0"
+      },
+      "dynamic_templates": [
+        {
+          "strings_as_keyword": {
+            "mapping": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "match_mapping_type": "string"
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "beat": {
+          "properties": {
+            "hostname": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "name": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "version": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            }
+          }
+        },
+        "check": {
+          "properties": {
+            "CheckID": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Name": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Node": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Notes": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Output": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "ServiceID": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "ServiceName": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Status": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            }
+          }
+        },
+        "node": {
+          "properties": {
+            "Address": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Node": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "TaggedAddresses": {
+              "properties": {
+                "Lan": {
+                  "ignore_above": 1024,
+                  "type": "keyword"
+                },
+                "Wan": {
+                  "ignore_above": 1024,
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        },
+        "service": {
+          "properties": {
+            "Address": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "ID": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Port": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Service": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            },
+            "Tags": {
+              "ignore_above": 1024,
+              "type": "keyword"
+            }
+          }
+        },
+        "tags": {
+          "ignore_above": 1024,
+          "type": "keyword"
+        }
+      }
+    }
+  },
+  "order": 0,
+  "settings": {
+    "index.refresh_interval": "5s"
+  },
+  "template": "consulbeat-*"
+}

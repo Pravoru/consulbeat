@@ -1,0 +1,78 @@
+- key: check
+  title: Check
+  description: >
+      Contains checks forr all services in consul.
+  fields:
+    - name: "@timestamp"
+      type: date
+      required: true
+      format: YYYY-MM-DDTHH:MM:SS.milliZ
+      example: 2015-01-24T14:06:05.071Z
+      description: >
+        The timestamp of the event, as measured by the Beat. The precision is in
+        milliseconds. The timezone is UTC.
+
+    - name: check
+      type: group
+      fields:
+        - name: CheckID
+          required: true
+
+        - name: Name
+          required: true
+
+        - name: Node
+          required: true
+
+        - name: Notes
+          required: true
+
+        - name: Output
+          required: true
+
+        - name: ServiceID
+          required: true
+
+        - name: ServiceName
+          required: true
+
+        - name: Status
+          required: true
+
+    - name: node
+      type: group
+      fields:
+        - name: Address
+          required: true
+
+        - name: Node
+          required: true
+
+        - name: TaggedAddresses
+          type: group
+          fields:
+            - name: Lan
+              required: true
+
+            - name: Wan
+              required: true
+
+    - name: service
+      type: group
+      fields:
+        - name: Address
+          required: true
+
+        - name: ID
+          required: true
+
+        - name: Port
+          format: dotted notation.
+          required: true
+
+        - name: Service
+          required: true
+
+        - name: Tags
+          required: true
+

@@ -1,0 +1,5 @@
+= Consulbeat Docs
+
+Welcome to the Consulbeat documentation.
+
+

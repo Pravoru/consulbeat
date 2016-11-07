@@ -1,0 +1,13 @@
+################### Consulbeat Configuration Example #########################
+
+############################# Consulbeat ######################################
+
+consulbeat:
+  # Defines how often an event is sent to the output
+  period: 1s
+  # Defines the consul url
+  consul_url: "http://localhost:8500/"
+  # Defines tags that be use for filter services. Comment for skip filteration.
+  tags: ["prod"]
+  # Defines ability to panic in any http problem
+  fail_on_http_error: false

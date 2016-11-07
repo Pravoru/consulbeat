@@ -1,0 +1,9 @@
+package: gitlab.com/Pravo.ru/ConsulBeat/
+homepage: https://gitlab.com/Pravo.ru/ConsulBeat/
+license: Apache-2.0
+owners:
+- name: Michael Elufimov
+  homepage: https://github.com/elufimov
+import:
+- package: github.com/elastic/beats
+  version: v5.0.0
