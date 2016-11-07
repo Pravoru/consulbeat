@@ -3,7 +3,7 @@
 Welcome to Consulbeat.
 
 Ensure that this folder is at the following location:
-`${GOPATH}/github.com/elufimov`
+`${GOPATH}/github.com/pravoru`
 
 ## Getting Started with Consulbeat
 
